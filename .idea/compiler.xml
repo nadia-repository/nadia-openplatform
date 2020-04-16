@@ -4,5 +4,11 @@
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nadia-openplatform.gateway.main" target="1.8" />
+      <module name="nadia-openplatform.gateway.test" target="1.8" />
+      <module name="nadia-openplatform.isv-srv.main" target="1.8" />
+      <module name="nadia-openplatform.isv-srv.test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

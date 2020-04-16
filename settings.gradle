@@ -1,2 +1,6 @@
 rootProject.name = 'nadia-openplatform'
+include 'openplatform-gateway'
+include 'openplatfrom-isv-srv'
+include 'openplatform-common'
+include 'openplatform-sdk-java'
 
