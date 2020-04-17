@@ -12,5 +12,15 @@ repositories {
 }
 
 dependencies {
+
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.2.6.RELEASE'
+    compile group: 'com.alibaba', name: 'fastjson', version: '1.2.68'
+    compile group: 'org.mybatis.spring.boot', name: 'mybatis-spring-boot-starter', version: '2.1.2'
+    compile group: 'org.springframework.security', name: 'spring-security-core', version: '5.3.1.RELEASE'
+    compile group: 'com.squareup.okhttp3', name: 'okhttp', version: '4.5.0'
+    compile group: 'com.google.guava', name: 'guava', version: '29.0-jre'
+
+    compile(project(":openplatform-common"))
+
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

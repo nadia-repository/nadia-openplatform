@@ -12,5 +12,10 @@ repositories {
 }
 
 dependencies {
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '2.2.6.RELEASE'
+    compile group: 'org.projectlombok', name: 'lombok', version: '1.18.12'
+    compile group: 'io.swagger', name: 'swagger-annotations', version: '1.6.1'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.10'
+
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

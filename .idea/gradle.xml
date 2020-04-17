@@ -8,8 +8,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/gateway" />
-            <option value="$PROJECT_DIR$/isv-srv" />
             <option value="$PROJECT_DIR$/openplatform-common" />
             <option value="$PROJECT_DIR$/openplatform-gateway" />
             <option value="$PROJECT_DIR$/openplatform-sdk-java" />

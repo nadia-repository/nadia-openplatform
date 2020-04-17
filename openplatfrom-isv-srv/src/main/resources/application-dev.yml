@@ -1,0 +1,48 @@
+
+spring:
+  datasource:
+    druid:
+#      url: jdbc:mysql://dev.cfti8umsjnvm.ap-southeast-1.rds.amazonaws.com:3306/open_platform?zeroDateTimeBehavior=convertToNull&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Manila
+#      username: dev
+#      password: C1ggDWAxG2fv
+#    url: jdbc:mysql://localhost:3306/trade?zeroDateTimeBehavior=convertToNull&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Manila
+#    username: root
+#    password: a19921231
+    #url: jdbc:mysql://staging.cfti8umsjnvm.ap-southeast-1.rds.amazonaws.com:3306/trade?zeroDateTimeBehavior=convertToNull&useLegacyDatetimeCode=false&serverTimezone=Asia/Manila
+    #username: staging
+    #password: 2WXGOH3pU1h8
+#    url: jdbc:mysql://13.229.102.174:3306/trade?zeroDateTimeBehavior=convertToNull&useLegacyDatetimeCode=false&serverTimezone=Asia/Manila
+#    username: dbopr
+#    password: 2WXGOH3pU1h8
+#    url: jdbc:mysql://13.229.102.174:3306/trade?zeroDateTimeBehavior=convertToNull&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Manila
+#    username: dbopr
+#    password: 2WXGOH3pU1h8
+    url: jdbc:mysql://52.77.225.254:3306/open_platform?zeroDateTimeBehavior=convertToNull&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Manila
+    username: dbopr
+    password: 2WXGOH3pU1h8
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+  redis:
+    host: localhost
+    password:
+    port: 6379
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+    service-registry:
+      auto-registration:
+        enabled: true
+  rocketmq:
+    namesrv: 52.221.190.206:98761
+    producerGroupName: tradeMqProducer
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://52.77.225.254:8761/eureka/
+
+address:
+  ip:
+    port: api.xxx.com
